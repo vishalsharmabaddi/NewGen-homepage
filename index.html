@@ -185,16 +185,63 @@
 
 <!-- THE PROBLEM -->
 <section class="newgen-section newgen-problem">
+  <div class="newgen-prob-orb newgen-prob-orb1"></div>
+  <div class="newgen-prob-orb newgen-prob-orb2"></div>
   <div class="newgen-container">
-    <div class="newgen-problem-inner">
-      <h2 class="newgen-problem-title newgen-rev">The tricky part isn't deciding you want one &mdash; <span>it's getting the right one installed properly.</span></h2>
-      <p class="newgen-problem-intro newgen-rev newgen-d1">Most problems happen when:</p>
-      <ul class="newgen-problem-list">
-        <li class="newgen-rev newgen-d2"><i class="fas fa-triangle-exclamation"></i><span>the system is undersized (or mismatched to the household)</span></li>
-        <li class="newgen-rev newgen-d3"><i class="fas fa-triangle-exclamation"></i><span>the install is rushed</span></li>
-        <li class="newgen-rev newgen-d4"><i class="fas fa-triangle-exclamation"></i><span>you don't get clear guidance on rebates, setup, and expectations</span></li>
-      </ul>
-      <p class="newgen-problem-close newgen-rev newgen-d5">And that's when &ldquo;saving money&rdquo; turns into frustration.</p>
+    <div class="newgen-prob-grid">
+
+      <!-- LEFT: Content -->
+      <div class="newgen-prob-content">
+        <div class="newgen-prob-label newgen-rev"><i class="fas fa-triangle-exclamation"></i> The Problem</div>
+        <h2 class="newgen-problem-title newgen-rev newgen-d1">The tricky part isn't deciding you want one &mdash; <span>it's getting the right one installed properly.</span></h2>
+        <p class="newgen-problem-intro newgen-rev newgen-d2">Most problems happen when:</p>
+        <div class="newgen-prob-items">
+          <div class="newgen-prob-item">
+            
+            <div class="newgen-prob-card">
+              <i class="fas fa-triangle-exclamation"></i>
+              <span>the system is undersized (or mismatched to the household)</span>
+            </div>
+          </div>
+          <div class="newgen-prob-item">
+            <div class="newgen-prob-card">
+              <i class="fas fa-triangle-exclamation"></i>
+              <span>the install is rushed</span>
+            </div>
+          </div>
+          <div class="newgen-prob-item">
+            <div class="newgen-prob-card">
+              <i class="fas fa-triangle-exclamation"></i>
+              <span>you don't get clear guidance on rebates, setup, and expectations</span>
+            </div>
+          </div>
+        </div>
+        <p class="newgen-problem-close newgen-rev newgen-d5">And that's when &ldquo;saving money&rdquo; turns into frustration.</p>
+      </div>
+
+      <!-- RIGHT: Visual -->
+      <div class="newgen-prob-visual newgen-rev newgen-d2">
+        <div class="newgen-prob-img-wrap">
+          <img class="newgen-prob-img"
+            src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&w=800&q=80"
+            alt="Problematic hot water system installation"
+            onerror="this.src='https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80'">
+          <div class="newgen-prob-img-overlay"></div>
+          <div class="newgen-prob-badge">
+            <i class="fas fa-times-circle"></i>
+            <div>
+              <div class="newgen-prob-badge-title">Wrong System</div>
+              <div class="newgen-prob-badge-sub">Undersized for household</div>
+            </div>
+          </div>
+          <div class="newgen-prob-cost">
+            <div class="newgen-prob-cost-label">Avg. repair cost</div>
+            <div class="newgen-prob-cost-value">$800–$2,400</div>
+            <div class="newgen-prob-cost-sub">from poor installation</div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
@@ -287,9 +334,9 @@
     <div class="newgen-about-g">
       <div class="newgen-about-img-w newgen-rev">
         <img class="newgen-about-img"
-          src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=700&q=80"
+          src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=700&q=80"
           alt="NewGen Installation Team"
-          onerror="this.parentElement.style.display='none'">
+          onerror="this.src='https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?auto=format&fit=crop&w=700&q=80'">
         <div class="newgen-about-acc"></div>
         <div class="newgen-about-yr">
           <div class="newgen-yr-n">14+</div>
@@ -376,7 +423,7 @@
 <section class="newgen-section newgen-testi" id="reviews">
   <div class="newgen-container">
     <div class="newgen-sh">
-      <h2 class="newgen-sec-title newgen-rev">Trusted by Homeowners <span>Across Melbourne</span></h2>
+      <h2 class="newgen-sec-title newgen-rev">Trusted by <span>Melbourne Homeowners</span></h2>
       <div class="newgen-rev-hdr newgen-rev newgen-d2">
         <div class="newgen-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
         <span class="newgen-rev-meta">4.9/5 average rating across 500+ verified reviews</span>
@@ -434,6 +481,10 @@
     <div class="newgen-slider-ctrl">
       <button class="newgen-s-btn" onclick="slide(-1)"><i class="fas fa-arrow-left"></i></button>
       <button class="newgen-s-btn" onclick="slide(1)"><i class="fas fa-arrow-right"></i></button>
+    </div>
+    <div class="newgen-testi-cta newgen-rev newgen-d3">
+      <a href="#reviews" class="newgen-btn-p"><i class="fas fa-star"></i> Read Reviews</a>
+      <a href="#featured" class="newgen-btn-testi-s"><i class="fas fa-images"></i> View Installations</a>
     </div>
   </div>
 </section>

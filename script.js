@@ -233,3 +233,18 @@ document.querySelectorAll('.newgen-t-card').forEach(card => {
 // ── TESTIMONIALS: Pause auto-slide on hover ──
 track.addEventListener('mouseenter', () => clearInterval(autoSlideInterval));
 track.addEventListener('mouseleave', () => startAutoSlide());
+
+// ── THE PROBLEM: Staggered card slide-in ──
+const probObs = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      const items = entry.target.querySelectorAll('.newgen-prob-item');
+      items.forEach((item, i) => {
+        setTimeout(() => item.classList.add('prob-in'), i * 180);
+      });
+      probObs.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.2 });
+const probGrid = document.querySelector('.newgen-prob-items');
+if (probGrid) probObs.observe(probGrid);
