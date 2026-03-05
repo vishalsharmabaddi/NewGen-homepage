@@ -176,8 +176,7 @@ img{max-width:100%;display:block}
 .newgen-prob-item:nth-child(3) .newgen-prob-card i{animation-delay:1s}
 @keyframes warnPulse{0%,78%,100%{transform:scale(1);opacity:.8}86%{transform:scale(1.4);opacity:1}93%{transform:scale(.92)}}
 
-.newgen-problem-close{font-size:14px;font-style:italic;color:rgba(255,255,255,.32);padding-left:76px;animation:closeFade 3.5s ease-in-out infinite}
-@keyframes closeFade{0%,100%{opacity:.32}50%{opacity:.6}}
+.newgen-problem-close{font-size:14px;font-style:italic;color:#fff;padding-left:76px;}
 
 /* RIGHT — image visual */
 .newgen-prob-img-wrap{position:relative;border-radius:var(--rl);overflow:visible}
