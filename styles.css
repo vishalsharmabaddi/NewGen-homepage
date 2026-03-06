@@ -55,8 +55,8 @@ img{max-width:100%;display:block}
 .newgen-hamburger span{width:24px;height:2px;background:var(--navy);border-radius:2px;transition:all .3s}
 
 /* ── HERO ── */
-.newgen-hero{position:relative;overflow:hidden;min-height:680px;display:flex;align-items:center;background:url('https://images.unsplash.com/photo-1600607687644-c7171b42498f?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat}
-.newgen-hero::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(15,23,42,.92) 0%,rgba(15,23,42,.85) 40%,rgba(15,23,42,.7) 100%)}
+.newgen-hero{position:relative;overflow:hidden;min-height:680px;display:flex;align-items:center;background:url('images/Showerbackground.webp') center/cover no-repeat}
+.newgen-hero::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(15,23,42,.78) 0%,rgba(15,23,42,.70) 40%,rgba(15,23,42,.55) 100%)}
 .newgen-particles{position:absolute;inset:0;overflow:hidden;pointer-events:none}
 .newgen-particle{position:absolute;border-radius:50%;animation:pfloat 8s ease-in-out infinite}
 .newgen-p1{width:5px;height:5px;background:rgba(255,255,255,.25);left:8%;top:20%;animation-delay:0s}
